@@ -7,8 +7,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import dagger.hilt.android.AndroidEntryPoint
 import kotu.cats.databinding.FragmentImageBinding
 
+@AndroidEntryPoint
 class ImageFragment : Fragment() {
 
     private var _binding: FragmentImageBinding? = null
